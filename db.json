@@ -1,0 +1,18 @@
+{
+  "contacts": {
+    "phone": [
+      "+380997252525",
+      "+380997252525"
+    ],
+    "email": "sheben@gmail.com"
+  },
+  "intro": {
+    "title": "Продажа и доставка гранитного щебня и песка по всей Украине",
+    "subtitle": "Производство высококачественного гранитного щебня и песка для строительных предприятий",
+    "introSlider": [
+      "/images/content/intro/intro-1.jpg",
+      "/images/content/intro/intro-2.jpg",
+      "/images/content/intro/intro-3.jpg"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+.intro-slider {
+
+  .flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    max-width: 165px;
+    left: 50%;
+    bottom: 20px;
+    margin-bottom: 0;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-end;
+
+    li {
+      flex: 1 0 auto;
+      width: auto;
+      height: 2px;
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      background: #fff;
+      opacity: .3;
+      list-style: none;
+
+      &.is-selected {
+        opacity: 1;
+        height: 4px;
+      }
+    }
+  }
+}
