@@ -4,7 +4,8 @@
             <div class="row justify-content-center justify-content-lg-around align-items-center">
                 <div class="col-lg-5">
                     <div class="connection-item">
-                        <div class="img d-none d-sm-block mx-auto mb-5 mb-lg-0" :style="{ backgroundImage: 'url(' + connection.image + ')' }"></div>
+                        <div class="img d-none d-sm-block mx-auto mb-5 mb-lg-0"
+                             :style="{ backgroundImage: 'url(' + connection.image + ')' }"></div>
                     </div>
                 </div>
                 <div class="col-sm-7 col-lg-5 col-xl-4">
@@ -19,15 +20,18 @@
                             <div class="form-column">
                                 <div class="form-group">
                                     <label class="label-placeholder" for="user-name">Ваше имя</label>
-                                    <input @blur="onBlur" @focus="onFocus" type="text" class="form-control" id="user-name">
+                                    <input @blur="onBlur" @focus="onFocus" type="text" class="form-control"
+                                           id="user-name">
                                 </div>
                                 <div class="form-group">
                                     <label class="label-placeholder" for="user-phone">Номер телефона</label>
-                                    <input @blur="onBlur" @focus="onFocus" type="tel" class="form-control" id="user-phone">
+                                    <input @blur="onBlur" @focus="onFocus" type="tel" class="form-control"
+                                           id="user-phone">
                                 </div>
                                 <div class="form-group">
                                     <label class="label-placeholder" for="user-email">Email</label>
-                                    <input @blur="onBlur" @focus="onFocus" type="email" class="form-control" id="user-email">
+                                    <input @blur="onBlur" @focus="onFocus" type="email" class="form-control"
+                                           id="user-email">
                                 </div>
                                 <button type="submit" class="btn btn-outline-primary">Отправить</button>
                             </div>
@@ -36,18 +40,15 @@
                 </div>
             </div>
         </div>
-        <div class="parallax-item parallax-item-1" data-rellax-speed="7" data-paroller-type="foreground"
-             data-paroller-direction="vertical">
+        <div class="parallax-item parallax-item-1" data-rellax-speed="2">
             <img src="images/content/parallax/parallax-1.png" alt="parallax">
         </div>
 
-        <div class="parallax-item parallax-item-2" data-rellax-speed="7" data-paroller-type="foreground"
-             data-paroller-direction="vertical">
+        <div class="parallax-item parallax-item-2" data-rellax-speed="1">
             <img src="images/content/parallax/parallax-2.png" alt="parallax">
         </div>
 
-        <div class="parallax-item parallax-item-3" data-rellax-speed="7" data-paroller-type="foreground"
-             data-paroller-direction="vertical">
+        <div class="parallax-item parallax-item-3 d-none d-xl-block" data-rellax-speed="2">
             <img src="images/content/parallax/parallax-3.png" alt="parallax">
         </div>
     </section>
@@ -55,7 +56,6 @@
 
 <script>
 
-    // var rellax = new Rellax('.parallax-item');
 
     export default {
         data() {
@@ -65,7 +65,7 @@
         },
         methods: {
             onBlur: function (e) {
-                if(e.target.value !== "") {
+                if (e.target.value !== "") {
                     e.target.parentNode.classList.add('in-focus');
                 } else {
                     e.target.parentNode.classList.remove('in-focus');
@@ -73,6 +73,11 @@
             },
             onFocus: function (e) {
                 e.target.parentNode.classList.add('in-focus');
+            }
+        },
+        mounted() {
+            if (process.client) {
+                var rellax = new Rellax('.parallax-item');
             }
         }
     }
@@ -86,6 +91,7 @@
     #connection {
         padding: 95px 0;
         background: url("/images/bg/connection-bg.jpg") 50% 50% /cover no-repeat;
+        overflow: visible;
     }
 
     .connection-item {
@@ -139,7 +145,7 @@
 
         .form-group {
             width: 100%;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
 
         &--min {
@@ -149,6 +155,11 @@
 
     .parallax-item {
         position: absolute;
+        display: none;
+
+        @media (min-width: map_get($grid-breakpoints, sm)) {
+            display: block;
+        }
 
         img {
             width: auto;
@@ -165,8 +176,8 @@
         }
 
         &-3 {
-            bottom: 0;
-            right: 10%;
+            bottom: -60px;
+            right: 8%;
         }
     }
 </style>

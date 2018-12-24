@@ -19,5 +19,49 @@
     "image": "/images/content/connection/connection-1.png",
     "title": "Связаться с нами",
     "subtitle": "Оставьте информацию о себе."
+  },
+  "catalog": {
+    "list": [
+      {
+        "class": "light",
+        "image": "/images/content/catalog/catalog-1.png",
+        "title": "Щебень гранитный фракция 40-70мм"
+      },
+      {
+        "class": "dark",
+        "image": "/images/content/catalog/catalog-2.png",
+        "title": "Щебень гранитный фракция 20-40мм"
+      },
+      {
+        "class": "dark",
+        "image": "/images/content/catalog/catalog-3.png",
+        "title": "Щебень гранитный фракция 10-20мм"
+      },
+      {
+        "class": "light",
+        "image": "/images/content/catalog/catalog-4.png",
+        "title": "Щебень гранитный фракция 5-10мм"
+      },
+      {
+        "class": "light",
+        "image": "/images/content/catalog/catalog-5.png",
+        "title": "Щебень гранитный фракция 0-5мм"
+      },
+      {
+        "class": "dark",
+        "image": "/images/content/catalog/catalog-6.png",
+        "title": "Песок речной"
+      },
+      {
+        "class": "dark",
+        "image": "/images/content/catalog/catalog-7.png",
+        "title": "Песок авражный"
+      }
+    ],
+    "delivery": {
+      "title": "Доставка",
+      "subtitle": "Транспортный парк содержит грузовые автомобили, способные доставить стройматериалы любых размеров и объемов по всей территории Украины.",
+      "image": "/images/content/catalog/delivery-1.png"
+    }
   }
 }
