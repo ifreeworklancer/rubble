@@ -14,5 +14,10 @@
       "/images/content/intro/intro-2.jpg",
       "/images/content/intro/intro-3.jpg"
     ]
+  },
+  "connection": {
+    "image": "/images/content/connection/connection-1.png",
+    "title": "Связаться с нами",
+    "subtitle": "Оставьте информацию о себе."
   }
 }

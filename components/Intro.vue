@@ -15,7 +15,7 @@
                             {{intro.subtitle}}
                         </div>
                         <a href="#" class="btn btn-primary">
-                            Заказать
+                            В каталог
                         </a>
                     </div>
                 </div>
@@ -42,9 +42,6 @@
 </template>
 
 <script>
-    if (process.client) {
-        require('flickity');
-    }
 
     export default {
         data() {
@@ -60,10 +57,10 @@
             }
         },
         mounted() {
-            var introSlider = new Flickity(this.$refs.flickity, this.flickityOptions);
+            let introSlider = new Flickity(this.$refs.flickity, this.flickityOptions);
 
-            var prevArrowIntro = document.querySelector('.slider-arrow-item--prev-intro');
-            var introSliderIndex = document.querySelector('.slider-nav-item--index');
+            let prevArrowIntro = document.querySelector('.slider-arrow-item--prev-intro');
+            let introSliderIndex = document.querySelector('.slider-nav-item--index');
 
             introSliderIndex.innerText = introSlider.selectedIndex + 1;
 
@@ -72,14 +69,14 @@
                 introSliderIndex.innerText = introSlider.selectedIndex + 1;
             });
 
-            var nextArrowIntro = document.querySelector('.slider-arrow-item--next-intro');
+            let nextArrowIntro = document.querySelector('.slider-arrow-item--next-intro');
 
             nextArrowIntro.addEventListener('click', function () {
                 introSlider.next(true, false);
                 introSliderIndex.innerText = introSlider.selectedIndex + 1;
             });
 
-            var introSliderlast = document.querySelector('.slider-nav-item--last');
+            let introSliderlast = document.querySelector('.slider-nav-item--last');
 
             introSliderlast.innerText = introSlider.getCellElements().length;
         },
