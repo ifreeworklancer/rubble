@@ -47,10 +47,6 @@
         <div class="parallax-item parallax-item-2" data-rellax-speed="1">
             <img src="images/content/parallax/parallax-2.png" alt="parallax">
         </div>
-
-        <div class="parallax-item parallax-item-3 d-none d-xl-block" data-rellax-speed="2">
-            <img src="images/content/parallax/parallax-3.png" alt="parallax">
-        </div>
     </section>
 </template>
 
@@ -173,11 +169,6 @@
         &-2 {
             top: 0;
             right: 5%;
-        }
-
-        &-3 {
-            bottom: -60px;
-            right: 8%;
         }
     }
 </style>

@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c059fd7-ac6e-45c2-85f7-6ca0e125b668" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Catalog.vue" afterDir="false" />
+    <list default="true" id="6c059fd7-ac6e-45c2-85f7-6ca0e125b668" name="Default Changelist" comment="connection_and_order">
+      <change afterPath="$PROJECT_DIR$/components/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Contacts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Modal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Technique.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/config/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/config/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Catalog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CustomSvg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/CustomSvg.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Сonnection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Сonnection.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/connection/connection-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/connection/connection-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/parallax/parallax-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/parallax/parallax-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/parallax/parallax-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/parallax/parallax-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/parallax/parallax-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/parallax/parallax-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/parallax/parallax-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/parallax/parallax-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/content/parallax/parallax-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/content/parallax/parallax-5.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +27,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Catalog.vue">
+        <entry file="file://$PROJECT_DIR$/components/Contacts.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+            <state relative-caret-position="331">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,7 +53,6 @@
         <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/AppLogo.vue" />
-        <option value="$PROJECT_DIR$/components/AppFooter.vue" />
         <option value="$PROJECT_DIR$/static/fonts/font.css" />
         <option value="$PROJECT_DIR$/assets/base/_btn.scss" />
         <option value="$PROJECT_DIR$/components/AppHeader.vue" />
@@ -60,11 +70,17 @@
         <option value="$PROJECT_DIR$/nuxt.config.js" />
         <option value="$PROJECT_DIR$/components/Intro.vue" />
         <option value="$PROJECT_DIR$/assets/modules/_forms.scss" />
-        <option value="$PROJECT_DIR$/pages/index.vue" />
-        <option value="$PROJECT_DIR$/components/Сonnection.vue" />
         <option value="$PROJECT_DIR$/assets/config/_variables.scss" />
+        <option value="$PROJECT_DIR$/components/Сonnection.vue" />
+        <option value="$PROJECT_DIR$/components/About.vue" />
+        <option value="$PROJECT_DIR$/components/Technique.vue" />
         <option value="$PROJECT_DIR$/db.json" />
+        <option value="$PROJECT_DIR$/components/CustomSvg.vue" />
+        <option value="$PROJECT_DIR$/components/AppFooter.vue" />
+        <option value="$PROJECT_DIR$/components/Modal.vue" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
         <option value="$PROJECT_DIR$/components/Catalog.vue" />
+        <option value="$PROJECT_DIR$/components/Contacts.vue" />
       </list>
     </option>
   </component>
@@ -77,13 +93,14 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,12 +111,29 @@
             <path>
               <item name="rubble" type="b2602c69:ProjectViewProjectNode" />
               <item name="rubble" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubble" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubble" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubble" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubble" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rubble" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rubble" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,7 +180,9 @@
       <workItem from="1545378867701" duration="22968000" />
       <workItem from="1545639928734" duration="2928000" />
       <workItem from="1545642891686" duration="4857000" />
-      <workItem from="1545650136890" duration="13813000" />
+      <workItem from="1545650136890" duration="14097000" />
+      <workItem from="1545725152037" duration="599000" />
+      <workItem from="1545743877383" duration="8145000" />
     </task>
     <task id="LOCAL-00001" summary="edit_readme">
       <created>1545405775228</created>
@@ -169,17 +205,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545656602818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connection_and_order">
+      <created>1545667438206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545667438206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52001000" />
+    <option name="totallyTimeSpent" value="61029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -210,7 +253,8 @@
     <MESSAGE value="edit_readme" />
     <MESSAGE value="edit_gitignore" />
     <MESSAGE value="intro_connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="intro_connection" />
+    <MESSAGE value="connection_and_order" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection_and_order" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/store/README.md">
@@ -231,9 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/AppFooter.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/base/_btn.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -253,13 +294,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/vue-flickity/src/flickity.vue" />
     <entry file="file://$PROJECT_DIR$/plugins/flickity.js" />
-    <entry file="file://$PROJECT_DIR$/components/AppHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/OSPanel/domains/carleone/views/base/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -280,16 +314,6 @@
           <caret line="54" column="26" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="54" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/CustomSvg.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,24 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/base/_body.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Intro.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -432,34 +442,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+    <entry file="file://$PROJECT_DIR$/components/Сonnection.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#118#161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-end-line="175" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Сonnection.vue">
+    <entry file="file://$PROJECT_DIR$/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Technique.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AppFooter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="131" selection-start-line="6" selection-start-column="131" selection-end-line="6" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Intro.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="169" lean-forward="true" selection-start-line="43" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/modules/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/OSPanel/domains/rentcar.loc/views/modules/modal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="67" column="10" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="67" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#193#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Modal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/CustomSvg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AppHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Catalog.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Contacts.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
         </state>
       </provider>
     </entry>
