@@ -11,7 +11,7 @@
                             <h3 class="title">
                                 {{value.title}}
                             </h3>
-                            <a href="#" class="btn btn-dark" :data-title="value.title">Заказать</a>
+                            <a href="#" @click.prevent="open" class="btn btn-dark" :data-title="value.title">Заказать</a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                             <div class="subtitle">
                                 {{catalog.delivery.subtitle}}
                             </div>
-                            <a href="#" class="btn btn-outline-primary">
+                            <a href="#" @click.prevent="open" class="btn btn-outline-primary">
                                 Узнать больше
                             </a>
                         </div>
@@ -56,6 +56,11 @@
         data() {
             return {
                 catalog: require('../db').catalog
+            }
+        },
+        methods: {
+            open() {
+                this.$emit('open');
             }
         },
         mounted() {
@@ -198,7 +203,7 @@
         position: absolute;
         display: none;
 
-        @media (min-width: map_get($grid-breakpoints, sm)) {
+        @media (min-width: map_get($grid-breakpoints, lg)) {
             display: block;
         }
 

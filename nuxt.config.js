@@ -9,6 +9,10 @@ module.exports = {
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
             {hid: 'description', name: 'description', content: ''}
         ],
+        script: [
+            {src: 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'},
+            {src: 'https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js'}
+        ],
         link: [
             {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
         ]
@@ -16,7 +20,7 @@ module.exports = {
     /*
     ** Customize the progress bar color
     */
-    loading: {color: '#3B8070'},
+    loading: {color: '#ffdd9b'},
     /*
     ** Build configuration
     */

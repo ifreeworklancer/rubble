@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <a href="#" class="btn btn-outline-primary">
+                    <a href="#" @click.prevent="open" class="btn btn-outline-primary">
                         Связаться
                     </a>
                 </div>
@@ -78,6 +78,11 @@
         data() {
             return {
                 contacts: require('../db').contacts
+            }
+        },
+        methods: {
+            open() {
+                this.$emit('open');
             }
         }
     }

@@ -14,8 +14,8 @@
                         <div class="intro-item__subtitle">
                             {{intro.subtitle}}
                         </div>
-                        <a href="#" class="btn btn-primary">
-                            В каталог
+                        <a href="#" @click.prevent="open" class="btn btn-primary">
+                            Связаться
                         </a>
                     </div>
                 </div>
@@ -54,6 +54,11 @@
                     wrapAround: false,
                 },
                 intro: require('../db').intro
+            }
+        },
+        methods: {
+            open() {
+                this.$emit('open');
             }
         },
         mounted() {

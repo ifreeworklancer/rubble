@@ -1,16 +1,21 @@
 <template>
-    <main>
-        <intro/>
-        <connection/>
-        <catalog/>
-        <about/>
-        <technique/>
-        <contacts/>
-        <modal/>
-    </main>
+    <div>
+        <app-header @open="showModal"/>
+        <main>
+            <intro @open="showModal"/>
+            <connection/>
+            <catalog @open="showModal"/>
+            <about/>
+            <technique/>
+            <contacts @open="showModal"/>
+        </main>
+        <modal v-show="isModalVisible" @close="closeModal"></modal>
+        <app-footer/>
+    </div>
 </template>
 
 <script>
+    import AppHeader from '~/components/AppHeader';
     import Intro from '~/components/Intro.vue';
     import Connection from '~/components/Сonnection.vue';
     import Catalog from '~/components/Catalog.vue';
@@ -18,22 +23,32 @@
     import Technique from '~/components/Technique.vue';
     import Contacts from '~/components/Contacts.vue';
     import Modal from '~/components/Modal.vue';
+    import AppFooter from '~/components/AppFooter';
 
     export default {
-        head: {
-            script: [
-                {src: 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'},
-                {src: 'https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js'}
-            ],
+        data() {
+            return {
+                isModalVisible: false
+            }
         },
         components: {
+            AppHeader,
             Intro,
             Connection,
             Catalog,
             About,
             Technique,
             Contacts,
+            AppFooter,
             Modal
+        },
+        methods: {
+            showModal() {
+                this.isModalVisible = true;
+            },
+            closeModal() {
+                this.isModalVisible = false;
+            }
         }
     }
 </script>

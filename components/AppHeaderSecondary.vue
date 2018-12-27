@@ -14,9 +14,9 @@
                             <li><a :href="'tel:' + contacts.phone[1]">{{ contacts.phone[1] }}</a></li>
                             <li><a :href="'mailto:' + contacts.email">{{ contacts.email }}</a></li>
                         </ul>
-                        <a href="#"  @click.prevent="open" class="btn btn-outline-primary open-connection">
-                            Связаться
-                        </a>
+                        <nuxt-link to="/" class="btn btn-outline-primary open-connection">
+                            На главную
+                        </nuxt-link>
                     </div>
                 </div>
             </div>
@@ -31,11 +31,6 @@
             return {
                 contacts: require('../db').contacts
             }
-        },
-        methods: {
-            open() {
-                this.$emit('open');
-            },
         }
     }
 </script>
